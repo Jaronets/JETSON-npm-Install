@@ -5,7 +5,9 @@ commando nmp Install Jetson Nano Ubuntu 18.04.2 LTS
 Ubuntu Server 18.04 Node.js and npm install
 
 sudo apt remove --purge nodejs npm
+
 sudo apt clean
+
 sudo apt autoclean
 sudo apt install -f
 sudo apt autoremove
